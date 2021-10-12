@@ -1,6 +1,6 @@
 #Writing the greeting for the user.
 print ('Welcome To The Calculator!')
-print 
+print ('This calculator can add, subtract, multiple and divide!')
 
 def add(x,y):
     return x + y
