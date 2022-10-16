@@ -2,10 +2,6 @@
 
 import random
 
-Wins = 0
-Losses = 0
-Ties = 0
-
 user_input = input("Would you like to play Rock, Paper, Scissors?")
 
 print ("R for Rock")
@@ -32,10 +28,8 @@ while True:
     elif user_choice == "Rock":
         if computer_choice == "Paper":
             print ("You Lose!")
-            Losses + 1
         else:
             print ("You Win")
-            Wins + 1
             break
 
 #Outcome 2
@@ -43,20 +37,16 @@ while True:
     elif user_choice == "Rock":
         if computer_choice == "Scissors":
             print ("You Win")
-            Wins + 1
         else:
             print ("You Lose")
-            Losses + 1
             break
 
     elif user_choice == "Scissors":
         if computer_choice == "Rock":
                 print ("You Lose!")
-                Losses + 1
         
         else:
             print ("You Win")
-            Wins + 1
             break
 
 #Outcome 3
@@ -64,12 +54,8 @@ while True:
     elif user_choice == "Paper":
         if computer_choice == "Scissors":
                 print ("You Lose!")
-                Losses + 1
                 break
 
         else:
             print ("You Win")
-            Wins + 1
             break
-
-
