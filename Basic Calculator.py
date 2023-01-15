@@ -2,9 +2,6 @@
 
 print ('Welcome To The Calculator!')
 print (                                      )
-print ('This calculator can add, subtract, multiply and divide!')
-
-print (                                      )
 print ("************************************")
 print (                                      )
 
