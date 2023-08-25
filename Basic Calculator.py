@@ -1,4 +1,4 @@
-#Basic Mathematical Calculator:
+# Basic Mathematical Calculator:
 
 print ('Welcome To The Calculator!')
 print (                                      )
@@ -55,11 +55,4 @@ elif choice == 4:
 elif choice == 5:
     print ("The remainder of", num1, "and", num2, "is", rem (num1, num2),".")
 
-
-
-
-
-
-
-   
-  
+# End of Program.
